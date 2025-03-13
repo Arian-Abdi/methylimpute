@@ -8,6 +8,7 @@ setup(
         "pandas>=1.0.0",
         "numpy>=1.19.0",
         "scikit-learn>=0.23.0",
+        "requests>=2.25.0",
     ],
     entry_points={
         'console_scripts': [
