@@ -63,7 +63,6 @@ def test_full_pipeline_integration(small_methylome_file, mock_manifest_file, tem
     # Define paths
     mapped_output = os.path.join(temp_output_dir, "mapped_pipeline.csv")
     imputed_output = os.path.join(temp_output_dir, "imputed_pipeline.csv")
-    chunk_dir = os.path.join(temp_output_dir, "chunks")
     
     # Step 1: Mapping
     mapper = CpGMapper(manifest_file=mock_manifest_file)
@@ -86,21 +85,19 @@ def test_full_pipeline_integration(small_methylome_file, mock_manifest_file, tem
         input_df=mapped_data,
         chr_col='chr',
         output_file=imputed_output,
-        save_chunks=True,
-        chunk_dir=chunk_dir
     )
     
     # Verify output files
     assert os.path.exists(mapped_output)
     assert os.path.exists(imputed_output)
-    assert os.path.exists(chunk_dir)
+    #assert os.path.exists(chunk_dir)
     
     # Check that chunk files were created for each chromosome
-    chromosomes = mapped_data['chr'].unique()
-    for chrom in chromosomes:
-        chunk_file = os.path.join(chunk_dir, f"chr_{chrom}.csv")
-        if len(mapped_data[mapped_data['chr'] == chrom]) > 0:  # Only if there's data for this chromosome
-            assert os.path.exists(chunk_file)
+    #chromosomes = mapped_data['chr'].unique()
+    #for chrom in chromosomes:
+        #chunk_file = os.path.join(chunk_dir, f"chr_{chrom}.csv")
+        #if len(mapped_data[mapped_data['chr'] == chrom]) > 0:  # Only if there's data for this chromosome
+            #assert os.path.exists(chunk_file)
     
     # Read imputed data
     imputed_data = pd.read_csv(imputed_output)

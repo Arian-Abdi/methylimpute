@@ -209,8 +209,6 @@ def test_impute_command(mock_imputer_class, mock_setup_logger):
     mock_args.max_iter = 10
     mock_args.n_nearest = 10
     mock_args.threshold = 0.05
-    mock_args.save_chunks = False
-    mock_args.chunk_dir = None
     mock_args.jobs = 1
     mock_args.debug = False
     
@@ -233,9 +231,7 @@ def test_impute_command(mock_imputer_class, mock_setup_logger):
     mock_imputer.impute.assert_called_once_with(
         input_file='input.csv',
         chr_col='chr',
-        output_file='output.csv',
-        save_chunks=False,
-        chunk_dir=None
+        output_file='output.csv'
     )
 
 
@@ -324,9 +320,7 @@ def test_pipeline_command(mock_read_csv, mock_imputer_class, mock_mapper_class, 
     mock_imputer.impute.assert_called_once_with(
         input_df=mock_df,
         chr_col='chr',
-        output_file='output.csv',
-        save_chunks=False,
-        chunk_dir=None
+        output_file='output.csv'
     )
 
 
