@@ -2,8 +2,6 @@
 
 A Python package for mapping CpG sites to chromosomes and imputing missing methylation beta values in Illumina EPIC arrays.
 
-**IMPORTANT: This is proprietary software. All rights reserved. See LICENSE file for details.**
-
 ## Features
 
 - **CpG Mapping**: Map CpG sites to chromosomes using Illumina manifest files
@@ -13,23 +11,16 @@ A Python package for mapping CpG sites to chromosomes and imputing missing methy
 - **Command-Line Interface**: Easy-to-use CLI with comprehensive options
 - **Python API**: Programmatic interface for integration into analysis pipelines
 
-## Usage Rights
-
-This software is proprietary. No rights are granted for:
-- Redistribution
-- Modification
-- Commercial use
-- Derivative works
-
-Please contact the author for licensing inquiries: arian.abdipour9@gmail.com
-
 ## Installation
 
-**Note:** Installation requires explicit permission from the author.
-
 ```bash
-# Only for authorized users:
+# Install from GitHub
 pip install git+https://github.com/yourusername/methylimpute.git
+
+# For development installation
+git clone https://github.com/yourusername/methylimpute.git
+cd methylimpute
+pip install -e .
 ```
 
 ## Quick Start
@@ -99,8 +90,6 @@ Options:
 - `--max-iter N`: Maximum number of imputation iterations (default: 10)
 - `--n-nearest N`: Number of nearest features for imputation (default: 10)
 - `--threshold N`: Maximum fraction of missing values for a row (default: 0.05)
-- `--save-chunks`: Save imputed data for each chromosome separately
-- `--chunk-dir DIR`: Directory to save chromosome chunks
 - `--jobs N`: Number of parallel jobs for processing (default: 1)
 
 #### Pipeline Command
@@ -125,16 +114,12 @@ Options: Combines all options from the map and impute commands, plus:
 - For large datasets (>100K probes), increase the `--jobs` parameter to use multiple CPU cores
 - Consider using the `--save-chunks` option to process and save chromosomes individually
 - Adjust the `--threshold` parameter to control row filtering based on missing data
-
-## Citation
-
-If you use MethylImpute in your research (with permission), please cite:
-
-```
-Abdipour, A. (2025). MethylImpute: A package for mapping CpG sites and imputing missing methylation values.
 ```
 
-## Contact
+## Contributing
 
-For inquiries about licensing, usage permissions, or collaboration, please contact:
-arian.abdipour9@gmail.com
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -1,30 +1,21 @@
-## MethylImpute - Proprietary Software
+MIT License
 
-Copyright (c) 2025 Arian Abdipour. All Rights Reserved.
+Copyright (c) 2025 Arian Abdi
 
-### PROPRIETARY SOFTWARE LICENSE
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This software and associated documentation files (the "Software") are the proprietary and confidential property of Arian Abdi. All rights are reserved.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-#### TERMS AND CONDITIONS
-
-1. **No Redistribution**: The Software may not be redistributed, shared, or disclosed to any third party, in part or in whole, without the express written permission of Arian Abdi.
-
-2. **No Modification**: The Software may not be modified, adapted, or built upon without the express written permission of Arian Abdi.
-
-3. **No Derivative Works**: Derivative works based on the Software may not be created without the express written permission of Arian Abdi.
-
-4. **Academic Citation**: If the Software is used in academic or research contexts, proper citation must be provided in any resulting publications or presentations.
-
-5. **No Implied License**: Possession or access to the Software does not convey or imply any right to use the Software beyond the terms stated in this License.
-
-6. **No Warranty**: The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement.
-
-7. **No Liability**: In no event shall Arian Abdi be liable for any claim, damages, or other liability arising from the use of the Software.
-
-8. **Educational Use**: This software was developed as part of academic research at Ghent University, Belgium. Any rights claimed herein do not conflict with the institutional policies of Ghent University.
-
-For inquiries about licensing, permissions, or collaboration, please contact:
-arian.abdipour9@gmail.com
-
-This License shall be governed by and construed in accordance with the laws of Belgium. Any disputes shall be resolved in the courts of Ghent, Belgium.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
