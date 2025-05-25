@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 # MethylImpute
 
 A Python package for mapping CpG sites to chromosomes and imputing missing methylation beta values in Illumina EPIC arrays.
@@ -15,10 +18,10 @@ A Python package for mapping CpG sites to chromosomes and imputing missing methy
 
 ```bash
 # Install from GitHub
-pip install git+https://github.com/yourusername/methylimpute.git
+pip install git+https://github.com/Arian_Abdi/methylimpute.git
 
 # For development installation
-git clone https://github.com/yourusername/methylimpute.git
+git clone https://github.com/Aria-Abdi/methylimpute.git
 cd methylimpute
 pip install -e .
 ```
