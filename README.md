@@ -105,7 +105,7 @@ Options: Combines all options from the map and impute commands, plus:
 
 - Input data should be a CSV file with:
   - A column for CpG probe IDs (default name: 'ProbeID')
-  - Columns for beta values (numeric)
+  - Rows for beta values (numeric)
   
 - The package works with Illumina EPIC v1.0 arrays by default
 
