@@ -21,7 +21,7 @@ A Python package for mapping CpG sites to chromosomes and imputing missing methy
 pip install git+https://github.com/Arian_Abdi/methylimpute.git
 
 # For development installation
-git clone https://github.com/Aria-Abdi/methylimpute.git
+git clone https://github.com/Arian-Abdi/methylimpute.git
 cd methylimpute
 pip install -e .
 ```
