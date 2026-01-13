@@ -15,10 +15,10 @@ A Python package for mapping CpG sites to chromosomes and imputing missing methy
 
 ```bash
 # Install from GitHub
-pip install git+https://github.com/yourusername/methylimpute.git
+pip install git+https://github.com/Arian-Abdi/methylimpute.git
 
 # For development installation
-git clone https://github.com/yourusername/methylimpute.git
+git clone https://github.com/Arian-Abdi/methylimpute.git
 cd methylimpute
 pip install -e .
 ```
