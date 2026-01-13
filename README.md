@@ -115,7 +115,7 @@ Options: Combines all options from the map and impute commands, plus:
 - Consider using the `--save-chunks` option to process and save chromosomes individually
 - Adjust the `--threshold` parameter to control row filtering based on missing data
 ```
-NOTE: Claude code was used to develope this tool
+NOTE: AI was used to develope this tool
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
